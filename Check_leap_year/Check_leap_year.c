@@ -5,10 +5,12 @@ bool lsee(int year)
 {
     if((year%4==0 && year%100!=0) || year%400==0)
     {
+        printf("是闰年\n");
         return TRUE;
     }
     else
     {
+        printf("是平年\n");
         return FALSE;
     }
 }
@@ -30,24 +32,24 @@ int main(int argc, char const* argv[])
         case 8:
         case 10:
         case 12:
+            lsee(y);
             day = 31;
             break;
         case 4:
         case 6:
         case 9:
         case 11:
+            lsee(y);
             day = 30;
             break;
         case 2:
             if(lsee(y))
             {
                  day = 29;
-                 printf("是闰年\n");
             }
             else
             {
                  day = 28;
-                 printf("是平年\n");
             }
             break;
         default:
