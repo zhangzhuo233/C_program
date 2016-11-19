@@ -1,3 +1,6 @@
+/*程序功能：实现realloc函数
+**时间：2016-11-7-09：07
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
