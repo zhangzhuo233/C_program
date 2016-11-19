@@ -1,3 +1,6 @@
+/*程序功能：顺序读写代码展示--将一张图片进行读写拷贝
+**时间：Nov 14 12:37 
+*/
 #include<stdio.h>
 #include<stdlib.h>
 int main(int argc, char const* argv[])
