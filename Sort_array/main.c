@@ -1,3 +1,6 @@
+/*程序功能：将一个一维数组进行简单的排序
+**时间:Oct 27 12:27
+*/
 #include"Sort.h"
 
 int main(int argc, char const* argv[])
