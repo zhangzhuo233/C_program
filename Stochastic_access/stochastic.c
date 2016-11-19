@@ -1,5 +1,5 @@
 /*程序功能：对文件进行随机读写实例
-**时间：Nov 14 23:26
+**时间：2016 Nov 14 23:26
 */
 #include<stdio.h>
 #include<stdlib.h>
