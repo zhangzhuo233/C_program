@@ -1,3 +1,6 @@
+/*程序功能：打印乘法表
+**时间：2016-10-25-10：42
+*/
 #include<stdio.h>
 int main(int argc, char const* argv[])
 {
