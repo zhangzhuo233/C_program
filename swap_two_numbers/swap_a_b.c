@@ -1,3 +1,6 @@
+/*程序功能：交换两个数的正确展示
+**时间：2016-10-30-10：42
+*/
 #include<stdio.h>
 void swap(int*, int*);
 void swap(int *x, int *y)
