@@ -1,3 +1,6 @@
+/*程序功能：交换两个数的错误展示
+**时间：
+*/
 #include<stdio.h>
 
 void swap(int, int);
