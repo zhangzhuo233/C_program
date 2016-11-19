@@ -1,3 +1,6 @@
+/*程序功能：枚举类型的简单应用
+**时间：Nov  9 10:50
+*/
 #include<stdio.h>
 
 enum OPT
