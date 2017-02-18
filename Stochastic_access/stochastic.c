@@ -14,7 +14,7 @@ int main(int argc, char const* argv[])
     if(NULL == fp)
     {
         printf("Open file error!\n");
-        EXIT_FAILURE;
+        exit(EXIT_FAILURE);
     }
     fwrite(ar,sizeof(int),6,fp);
     fclose(fp);
@@ -24,7 +24,7 @@ int main(int argc, char const* argv[])
     if(NULL == fpr)
     {
         printf("Open file error!\n");
-        EXIT_FAILURE;
+        exit(EXIT_FAILURE);
     }
     while(1)
     {
